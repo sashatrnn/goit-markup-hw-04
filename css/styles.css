@@ -146,6 +146,7 @@ ul {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--link-color);
+  outline: transparent;
 }
 
 .site-nav .link.current {
@@ -177,6 +178,7 @@ ul {
 .address .link:hover,
 .address .link:focus {
   color: var(--link-color);
+  outline: transparent;
 }
 
 /* hero section */ 
@@ -240,6 +242,7 @@ ul {
 .button:focus {
   color: var(--primary-white-color);
   background: var(--link-color);
+  outline: transparent;
 }
 
 
@@ -408,7 +411,7 @@ width: calc((100% - 72px) / 4);
 .social-link:hover,
 .social-link:focus {
   background-color: var(--link-color);
-
+  outline: transparent;
 }
 
 /* Customers section*/
@@ -442,11 +445,13 @@ width: calc((100% - 72px) / 4);
 .client-link:hover,
 .client-link:focus {
   border: 1px solid var(--link-color);
+  outline: transparent;
 }
 
 .customers-icon:hover,
 .customers-icon:focus {
   fill: var(--link-color);
+  outline: transparent;
 } 
 
 /*Section Portfolio*/
@@ -516,6 +521,7 @@ width: calc((100% - 72px) / 4);
 .card-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-color: var(--alternative-color);
+  outline: transparent;
 }
 
 /* Footer */
@@ -582,4 +588,5 @@ width: calc((100% - 72px) / 4);
 .media-link:hover,
 .media-link:focus {
   background-color: var(--green-color);
+  outline: transparent;
 }
