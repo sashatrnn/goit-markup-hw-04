@@ -424,7 +424,11 @@ width: calc((100% - 72px) / 4);
   margin-top: 72px;
 }
 
-.customers-item {
+.customers-icon{
+  fill: var(--icon-color);
+}
+
+.client-link{
   display: flex;
   width: 168px;
   height: 88px;
@@ -435,29 +439,15 @@ width: calc((100% - 72px) / 4);
   border-radius: 4px;
 }
 
-/*
-.client-link{
-  display: block;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #8E8F99;
-  border-radius: 4px;
-}
-*/
-
-.customers-icon{
-  fill: var(--icon-color);
-}
-
-.customers-item:hover,
-.customers-item:focus {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--link-color);
-  border-radius: 4px;
 }
 
 .customers-icon:hover,
 .customers-icon:focus {
   fill: var(--link-color);
-}
+} 
 
 /*Section Portfolio*/
 
