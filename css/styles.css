@@ -427,6 +427,7 @@ width: calc((100% - 72px) / 4);
   margin-top: 72px;
 }
 
+
 .customers-icon{
   fill: var(--icon-color);
 }
@@ -442,21 +443,18 @@ width: calc((100% - 72px) / 4);
   border-radius: 4px;
 }
 
-.client-link:hover .customers-icon {
-  fill: var(--link-color)
-}
-
 .client-link:hover,
 .client-link:focus {
   border: 1px solid var(--link-color);
   outline: transparent;
 }
 
-/*.customers-icon:hover,
-.customers-icon:focus {
+
+.client-link:hover .customers-icon,
+.client-link:focus .customers-icon
+ {
   fill: var(--link-color);
-  outline: transparent;
-} */
+}
 
 /*Section Portfolio*/
 
