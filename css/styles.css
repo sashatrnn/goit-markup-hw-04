@@ -442,17 +442,21 @@ width: calc((100% - 72px) / 4);
   border-radius: 4px;
 }
 
+.client-link:hover .customers-icon {
+  fill: var(--link-color)
+}
+
 .client-link:hover,
 .client-link:focus {
   border: 1px solid var(--link-color);
   outline: transparent;
 }
 
-.customers-icon:hover,
+/*.customers-icon:hover,
 .customers-icon:focus {
   fill: var(--link-color);
   outline: transparent;
-} 
+} */
 
 /*Section Portfolio*/
 
